@@ -8,3 +8,73 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+:root {
+    --purple: #540B51;
+    --ivory: #F3EAE2;
+    --button_blue: #4285F4;
+    --titles_black: #191817;
+    --paragraph_black: #000000;
+    --paragraph_yellow: #ECB12F;
+    --links_blue: #2E71A6;
+    --footer_grey: #454245;
+}
+
+body {
+    background-color: var(--purple);
+}
+
+/*------------NAVBAR----------------*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.nav__left {
+    display: flex;
+}
+
+.left__logo {
+    height: 40px;
+    padding: 0;
+}
+
+.left__list {
+    display: none;
+}
+
+.nav__right {
+    display: flex;
+    gap: 40px;
+}
+
+.nav__right button {
+    border: medium none;
+    border-spacing: 0;
+    background-color: var(--purple);
+}
+
+.nav__right button>img {
+    width: 40px;
+}
+
+
+/*----------------HEADER----------------*/
+
+.header__sign {
+    display: flex;
+    flex-direction: column;
+
+}
